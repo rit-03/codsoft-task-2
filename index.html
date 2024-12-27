@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Landing page</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#">TRAVEL <span> EXPRESS</span></a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <span><i class="ri-menu-line"></i></span>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#">Destination</a></li>
+        <li><a href="#">Package</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="nav__btns">
+        <button class="btn sign__up">Log In</button>
+        <button class="btn sign__in">Sign In</button>
+      </div>
+    </nav>
+    <header class="header__container">
+      <div class="header__image">
+        <div class="header__image__card header__image__card-1">
+          <span><i class="ri-hotel-line"></i></span>
+          Hotel Booking
+        </div>
+        <div class="header__image__card header__image__card-2">
+          <span><i class="ri-ticket-line"></i></span>
+         Tickets
+        </div>
+        <div class="header__image__card header__image__card-3">
+          <span><i class="ri-calendar-event-line"></i></span>
+        Local Events
+        </div>
+        <div class="header__image__card header__image__card-4">
+          <span><i class="ri-guide-line"></i></span>
+         Guide
+        </div>
+        <img src="travel.jpg" alt="header" />
+      </div>
+      <div class="header__content">
+        <h1>DISCOVER<br />YOUR NEXT <br><span> ADVENTURE</span> WITH US!!</h1>
+        <p>
+          Ready to explore the world? Whether you're seeking relaxing beaches, vibrant cities, 
+          or hidden gems off the beaten path, we've got the perfect getaway waiting for you.
+           From personalized itineraries to unforgettable experiences, our travel services 
+           are designed to help you create memories that will last a lifetime. Let us guide 
+           you on your journey to new destinations, exciting adventures, 
+          and cultural wonders. Start planning your dream trip today!
+        </p>
+        <form action="/">
+          <div class="input__row">
+            <div class="input__group">
+              <h5>Destination</h5>
+              <div>
+                <span><i class="ri-map-pin-line"></i></span>
+                <input type="text" placeholder="Goa ,India" />
+              </div>
+            </div>
+            <div class="input__group">
+              <h5>Date</h5>
+              <div>
+                <span><i class="ri-calendar-2-line"></i></span>
+                <input type="text" placeholder="31 Dec 2024" />
+              </div>
+            </div>
+          </div>
+          <button type="submit">Lets Go</button>
+        </form>
+        <div class="bar">
+          Copyright © 2024 Web Development. All rights reserved.
+        </div>
+      </div>
+    </header>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
